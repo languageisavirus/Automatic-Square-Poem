@@ -1,0 +1,63 @@
+<!-- Automatic Square Poem Generator by Lake http://www.languageisavirus.com/square-poetry/automatic-square-poem-generator.html -->
+
+<!doctype html><html><head><title>Automatic Random Square Poem Generator | Languageisavirus.com</title>
+<style>
+div.box {
+	background-color: #efefef;
+	border:1px solid #dddddd;
+	margin: 0 auto;
+	font-family:ms sans serif;
+	font-size:11px;
+	padding:3px;
+	width:83px;
+}
+</style>
+<script src="square-poem-highlighter.js"></script>
+<script src="automatic-square-poem.js"></script>
+
+</head><body>
+
+<p><strong>Click the button to automatically generate a new, random Lewis Carrol-style Square Poem - made up of 6 lines of 6 words each, that reads the same across or up and down.</strong></p>
+
+<div id="foo"><p><input type="button" value="Generate Square Poem" onClick="make_poem()"></p><p><h2>Square Poem by Lewis Carrol</h2>
+<table width="500" border="0"><tbody><tr>
+<td align=center valign=middle><div class=box id="onea" onMouseover="highlightLineOne()" onMouseout="highlightNone()" style="cursor:crosshair;">I</div></td>
+<td align=center valign=middle><div class=box id="oneb" onMouseover="highlightLineTwo()" onMouseout="highlightNone()" style="cursor:crosshair;">often</div></td>
+<td align=center valign=middle><div class=box id="onec" onMouseover="highlightLineThree()" onMouseout="highlightNone()" style="cursor:crosshair;">wondered</div></td>
+<td align=center valign=middle><div class=box id="oned" onMouseover="highlightLineFour()" onMouseout="highlightNone()" style="cursor:crosshair;">when</div></td>
+<td align=center valign=middle><div class=box id="onee" onMouseover="highlightLineFive()" onMouseout="highlightNone()" style="cursor:crosshair;">I</div></td>
+<td align=center valign=middle><div class=box id="onef" onMouseover="highlightLineSix()" onMouseout="highlightNone()" style="cursor:crosshair;">cursed</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="twoa" onMouseover="highlightLineTwo()" onMouseout="highlightNone()" style="cursor:crosshair;">often</div></td>
+<td align=center valign=middle><div class=box id="twob">feared</div></td>
+<td align=center valign=middle><div class=box id="twoc">where</div></td>
+<td align=center valign=middle><div class=box id="twod">I</div></td>
+<td align=center valign=middle><div class=box id="twoe">would</div></td>
+<td align=center valign=middle><div class=box id="twof">be</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="threea" onMouseover="highlightLineThree()" onMouseout="highlightNone()" style="cursor:crosshair;">wondered</div></td>
+<td align=center valign=middle><div class=box id="threeb">where</div></td>
+<td align=center valign=middle><div class=box id="threec">she'd</div></td>
+<td align=center valign=middle><div class=box id="threed">yield</div></td>
+<td align=center valign=middle><div class=box id="threee">her</div></td>
+<td align=center valign=middle><div class=box id="threef">love</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="foura" onMouseover="highlightLineFour()" onMouseout="highlightNone()" style="cursor:crosshair;">when</div></td>
+<td align=center valign=middle><div class=box id="fourb">I</div></td>
+<td align=center valign=middle><div class=box id="fourc">yield</div></td>
+<td align=center valign=middle><div class=box id="fourd">so</div></td>
+<td align=center valign=middle><div class=box id="foure">will</div></td>
+<td align=center valign=middle><div class=box id="fourf">she</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="fivea" onMouseover="highlightLineFive()" onMouseout="highlightNone()" style="cursor:crosshair;">I</div></td>
+<td align=center valign=middle><div class=box id="fiveb">would</div></td>
+<td align=center valign=middle><div class=box id="fivec">her</div></td>
+<td align=center valign=middle><div class=box id="fived">will</div></td>
+<td align=center valign=middle><div class=box id="fivee">be</div></td>
+<td align=center valign=middle><div class=box id="fivef">pitied</div></td></tr><tr>
+<td align=center valign=middle><div class=box id="sixa" onMouseover="highlightLineSix()" onMouseout="highlightNone()" style="cursor:crosshair;">cursed</div></td>
+<td align=center valign=middle><div class=box id="sixb">be</div></td>
+<td align=center valign=middle><div class=box id="sixc">love</div></td>
+<td align=center valign=middle><div class=box id="sixd">she</div></td>
+<td align=center valign=middle><div class=box id="sixe">pitied</div></td>
+<td align=center valign=middle><div class=box id="sixf">me</div></td>
+</tr></table>
+</p></div>
+<p><a href="http://www.languageisavirus.com/" target="_blank">brought to you by LanguageIsAVirus.com</a></p>
+</body></html>
